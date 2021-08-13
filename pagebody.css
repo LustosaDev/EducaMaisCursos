@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/** EDIÇÃO DA SCROLLBAR DO SITE **/
+
+::-webkit-scrollbar{
+    width: 15px;
+    border-left: 0.1px solid #000000;
+    background: white;
+}
+::-webkit-scrollbar-button{
+    background: #1554dd;
+}
+::-webkit-scrollbar-thumb{
+    border:1px solid black;
+    border-radius: 5px;
+    background: #0077ff;
+}
+
+/** BANNER DO SITE **/
+
+header{
+    height: 500px;
+    background-image: url(./Banner\ refeito.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+/** ÁREA DE CONTEUDO DO SITE **/
+
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+.container h1{
+    color: rgb(255, 166, 0);
+    margin: auto;
+    margin-left: 20px;
+    padding: 25px;
+}
+
+#inftxt{
+    margin: auto;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+img{
+    margin: auto;
+    width: 500px;
+    border-radius: 20px;
+}
+.contbtn{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+/** ÁREA DE INSCRIÇÃO DO SITE **/
+
+#formbtn{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    margin:auto;
+    width: 450px;
+    display: inline-flexbox;
+    background: rgba(32, 178, 171, 0.247);
+}
+#formbtn img{
+    width: 100px;
+    margin-left: 150px;
+    border-radius: 100%;
+}
+#formbtn h2{
+    text-align: center;
+    font-size: 14pt;
+}
+#formbtn button{
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #1995e7;
+    cursor: pointer;  
+}
+#formbtn button a{
+    color: white;
+    font-weight: bold;
+}
+#formbtn button:hover, button:focus{
+    background: #196be7;
+    padding: 15px;
+    transition: .9s;
+}
+
+.whatsapp-link{
+    color:white;
+    float: left;
+    z-index: 1000;
+}
+
+/** RODAPÉ DO SITE **/
+
+
+footer{
+    display: grid;
+    height: 200px;
+    width: 100%;
+    background:#1972e7;
+    align-items: center;
+}
+footer img{
+    width: 200px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+    font-weight: bold;
+}
+footer h4{
+    text-align: center;
+    font-size: 13pt;
+    color: white;
+}
+
+/** RESPONSIVIDADE DO SITE **/
+
+@media (max-width: 1098px) {
+    header{
+        height: 400px;
+    }
+    .container  p{
+        font-size: 12pt;
+        margin-left: 12px;
+        width: 400;
+    }
+    .container img{
+        width: 400px;
+    }
+    
+}
+@media (max-width: 1000px) {
+    header{
+        height: 400px;
+    }
+    .container  p{
+        font-size: 11pt;
+        margin-left: 10px;
+        width: 360;
+    }
+    .container img{
+        width: 350px;
+    }
+}
+@media (max-width: 850px) {
+    ::-webkit-scrollbar{
+        width: 0px;
+        border-left: none;
+        background: none;
+    }
+    header{
+        height: 350px;
+    }
+    .container{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .container  p{
+        font-size: 10pt;
+        margin-left: 13px;
+        width: 200;
+    }
+    #inftxt{
+        width: 300px;
+    }
+    #infval{
+        margin: auto;
+    }
+    .container img{
+        width: 300px;
+        height: 250px;
+        
+    }
+}
+@media (max-width: 648px) {
+    header{
+        height: 350px;
+    }
+    .container{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .container  p{
+        font-size: 10pt;
+        margin-left: 10px;
+        width: 200;
+    }
+    #inftxt{
+        width: 300px;
+    }
+    #infval{
+        margin: auto;
+    }
+    .container img{
+        width: 250px;
+        height: 200px;
+        
+    }
+}
+@media (max-width: 630px) {
+    header{
+        height: 300px;
+    }
+    #inftxt{
+        margin: auto;
+    }
+    .container img{
+        width: 300px;
+    }
+}
+@media (max-width:500px) {
+    #formbtn{
+        width: 350px;
+    }
+    #formbtn img{
+        margin-left: 110px;
+    }
+    .contbtn #formbtn button{
+        width: 300px;
+        
+    }
+}
+@media (max-width:360px) {
+    .container p{
+        font-size: 9pt;
+    }
+    .container img{
+        width: 270px;
+    }
+    #formbtn{
+        width: 250px;
+    }
+    #formbtn img{
+        margin-left: 55px;
+    }
+    .contbtn #formbtn button{
+        width: 200px;
+        
+    }
+    .contbtn #formbtn button a{
+        font-size: 8.5px;
+    }
+    
+}
