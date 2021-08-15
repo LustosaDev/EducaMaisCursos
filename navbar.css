@@ -6,9 +6,17 @@ nav{
     margin-bottom: 48px;
 }
 label img{
-    width: 56px;
+    width: 53px;
     border-radius: 100%;
     margin-left: 5px;
+    line-height: 60px;
+}
+label p{
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 60px;
 }
 nav ul{
     float: right;

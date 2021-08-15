@@ -24,7 +24,7 @@
 /** BANNER DO SITE **/
 
 header{
-    height: 500px;
+    height: 600px;
     background-image: url(./Banner\ refeito.png);
     background-repeat: no-repeat;
     background-size: cover;  
@@ -125,18 +125,22 @@ footer img{
 
 footer p{
     text-align: center;
-    font-size: 10pt;
+    font-size: 9pt;
     color: white;
     font-weight: bold;
 }
 footer h4{
     text-align: center;
-    font-size: 13pt;
+    font-size: 9pt;
     color: white;
 }
 
 /** RESPONSIVIDADE DO SITE **/
-
+@media (max-width:1366px) {
+    height{
+        height: 600px;
+    }
+}
 @media (max-width: 1098px) {
     header{
         height: 400px;
@@ -261,6 +265,9 @@ footer h4{
     }
     .contbtn #formbtn button a{
         font-size: 8.5px;
+    }
+    #infval img{
+        width: 300px;
     }
     
 }
