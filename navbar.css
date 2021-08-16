@@ -1,12 +1,12 @@
 nav{
     background-color: #1972e7;
-    height: 60px;
+    height: 40px;
     width: 100%;
     position: fixed;
     margin-bottom: 48px;
 }
 label img{
-    width: 53px;
+    width: 40px;
     border-radius: 100%;
     margin-left: 5px;
     line-height: 60px;
@@ -24,7 +24,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    line-height: 60px;
+    line-height: 40px;
     margin: 0 5px;
     list-style: none;
 
@@ -48,10 +48,10 @@ nav ul li a{
 }
 .checkbtn{
 
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     float: right;
-    line-height: 60px;
+    line-height: 40px;
     margin-right: 30px;
     cursor: pointer;
     display: none;
@@ -70,7 +70,7 @@ nav ul li a{
         width: 70%;
         height: 100vh;
         background: #222222;
-        top: 60px;
+        top: 40px;
         left: -100%;
         text-align: center;
         transition: all .5s;

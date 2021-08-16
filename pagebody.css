@@ -34,6 +34,7 @@ header{
 
 .container{
     margin-top: 50px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
@@ -47,13 +48,15 @@ header{
 
 #inftxt{
     margin: auto;
-    margin-left: 20px;
+    margin-left: 100px;
     text-align: justify;
+    width: 380px;
 }
 
 img{
     margin: auto;
-    width: 500px;
+    margin-left: 100px;
+    width: 400px;
     border-radius: 20px;
 }
 .contbtn{
@@ -73,7 +76,7 @@ img{
     margin:auto;
     width: 450px;
     display: inline-flexbox;
-    background: rgba(32, 178, 171, 0.247);
+    background: rgba(3, 137, 247, 0.527);
 }
 #formbtn img{
     width: 100px;
@@ -95,6 +98,7 @@ img{
 }
 #formbtn button a{
     color: white;
+    text-transform:uppercase;
     font-weight: bold;
 }
 #formbtn button:hover, button:focus{
@@ -114,7 +118,7 @@ img{
 
 footer{
     display: grid;
-    height: 200px;
+    height: 70px;
     width: 100%;
     background:#1972e7;
     align-items: center;
@@ -152,6 +156,7 @@ footer h4{
     }
     .container img{
         width: 400px;
+        margin-left: 0;
     }
     
 }
@@ -166,6 +171,9 @@ footer h4{
     }
     .container img{
         width: 350px;
+    }
+    #inftxt{
+        margin-left: 20px;
     }
 }
 @media (max-width: 850px) {
@@ -235,6 +243,9 @@ footer h4{
     }
 }
 @media (max-width:500px) {
+    .container{
+        padding: 0;
+    }
     #formbtn{
         width: 350px;
     }
@@ -247,6 +258,9 @@ footer h4{
     }
 }
 @media (max-width:360px) {
+    header{
+        height: 200px;
+    }
     .container p{
         font-size: 9pt;
     }
