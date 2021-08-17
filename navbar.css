@@ -42,9 +42,9 @@ nav ul li a{
 
 }
  a.active, a:hover{
-    background: #191ce75d;
-    transition: .5s;
-    padding: 20px 20px 20px
+    background: #1953e7;
+    transition: .7s;
+    padding: 10px 35px 10px
 }
 .checkbtn{
 

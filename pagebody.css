@@ -52,6 +52,10 @@ header{
     text-align: justify;
     width: 380px;
 }
+.container p{
+    font-size: 14pt;
+    
+}
 
 img{
     margin: auto;
@@ -68,6 +72,15 @@ img{
 }
 
 /** ÁREA DE INSCRIÇÃO DO SITE **/
+
+.contbtn p{
+    font-size: 25pt;
+    font-weight: bolder;
+    color: rgb(255, 238, 0);
+    box-shadow: black;
+    font-family: monospace;
+    text-align: center;
+}
 
 #formbtn{
     border: 1px solid white;
